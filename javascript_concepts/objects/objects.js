@@ -28,3 +28,13 @@ const person = {
 for (const [key, val] of Object.entries(person)) {
   console.log(key, val);
 }
+
+// destructuring
+function printYearFounded({ yearFounded }) {
+  console.log(yearFounded);
+}
+
+console.log(printYearFounded(game));
+
+const { name, age } = person;
+console.log(name, age);

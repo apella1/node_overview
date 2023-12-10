@@ -23,3 +23,7 @@ function toArray(...params) {
 }
 
 console.log(toArray(1, 3, 4, 5));
+
+// ! destructuring arrays
+const [soccer, football, basketball, hockey] = sports;
+console.log(soccer, football, basketball, hockey);
