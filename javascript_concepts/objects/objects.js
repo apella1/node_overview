@@ -18,3 +18,13 @@ const game = {
 console.log(game.greet());
 console.log(game.greetFn());
 console.log(game.noKeyFn());
+
+// using for..of loop while destructuring objects
+const person = {
+  name: "Pete",
+  age: 30,
+};
+
+for (const [key, val] of Object.entries(person)) {
+  console.log(key, val);
+}
